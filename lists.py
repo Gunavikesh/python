@@ -157,5 +157,32 @@ print(tuple_2)'''
 thistuple = tuple(["apple", "banana", "cherry"])
 print(thistuple)
 
+#INTERSECTION
+
+cs_courses = {'History', 'Math', 'Physics', 'CompSci'}
+new_courses = {'History', 'Math', 'Physics', 'design','art'}
+print(cs_courses .intersection(new_courses))
+#union
+cs_courses = {'History', 'Math', 'Physics', 'CompSci'}
+new_courses = {'History', 'Math', 'Physics', 'design','art'}
+print(cs_courses .union(new_courses))
+#difference
+cs_courses = {'History', 'Math', 'Physics', 'CompSci'}
+new_courses = {'History', 'Math', 'Physics', 'design','art'}
+print(cs_courses .difference(new_courses))
+
+# Empty Lists
+empty_list = []
+empty_list = list()
+
+# Empty Tuples
+empty_tuple = ()
+empty_tuple = tuple()
+
+# Empty Sets
+empty_set = {} # This isn't right! It's a dict
+empty_set = set()
+
+
 
 
